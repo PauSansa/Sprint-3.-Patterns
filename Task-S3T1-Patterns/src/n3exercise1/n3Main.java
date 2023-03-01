@@ -9,7 +9,7 @@ import java.util.List;
 
 public class n3Main {
     public static void main(String[] args) {
-        List<Vehicle> parking = new ArrayList<Vehicle>();
+        List<Vehicle> parking = new ArrayList<>();
         parking.add(new Vehicle("Car"));
         parking.add(new Vehicle("Ship"));
         parking.add(new Vehicle("Plane"));
